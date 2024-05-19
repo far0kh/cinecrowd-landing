@@ -57,7 +57,7 @@ const Hero = () => {
             CineCrowd aims to revolutionize film crowdfunding by utilizing blockchain technology to establish a transparent, efficient, and engaging platform for filmmakers and investors.
           </p>
 
-          <div className="flex flex-col md:flex-row gap-4">
+          <div className="flex flex-col md:flex-row gap-4 mt-16">
             <div className="flex flex-row items-end">
               <div className="flex flex-col">
                 <p className="tracking-widest text-end text-xl text-blue-100 font-bold max-w-50 pe-1">
