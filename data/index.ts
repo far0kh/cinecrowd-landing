@@ -53,9 +53,9 @@ export const gridItems = [
     title: "Our mission is to democratize film funding and create a vibrant community where artists and investors can thrive.",
     description: "The Mission Statement",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-60 w-60",
+    imgClassName: "absolute right-0 bottom-0 md:w-60 w-40",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.png",
+    img: "/b5.jpg",
     spareImg: "/grid.svg",
   },
   {
