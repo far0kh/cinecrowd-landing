@@ -5,19 +5,19 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
-      <h1 className="heading">
-        My <span className="text-purple">approach</span>
+    <section className="w-full pt-80">
+      <h1 className="heading" id="roadmap">
+        CineCrowd <span className="text-purple">Roadmap</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="Foundation & Early Adoption"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Develop the CineCrowd platform with blockchain integration, 
+          introduce the stablecoin, conduct beta testing, launch marketing campaigns to attract 
+          filmmakers and early adopters, and onboard initial film projects with detailed information."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +26,11 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Growth & Engagement"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Foster a vibrant community with interactive features, 
+          introduce AI ChatBOTs for updates, implement a tiered subscription model, 
+          establish partnerships with festivals and influencers, and airdrops to incentivize engagement."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +48,11 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Global Reach & Sustainability"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Expand to international markets with multi-language support, 
+          release mobile apps, enhance liquidity pool dynamics for growth, 
+          regularly update the platform based on feedback, and onboard high-profile film projects to attract larger investments."
         >
           <CanvasRevealEffect
             animationSpeed={3}
