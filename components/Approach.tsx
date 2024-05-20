@@ -20,9 +20,11 @@ const Approach = () => {
           filmmakers and early adopters, and onboard initial film projects with detailed information."
         >
           <CanvasRevealEffect
-            animationSpeed={5.1}
+            animationSpeed={3}
             // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-indigo-700 rounded-3xl overflow-hidden"
+            colors={[[221, 255, 247]]}
+            dotSize={2}
           />
         </Card>
         <Card
@@ -33,9 +35,9 @@ const Approach = () => {
           establish partnerships with festivals and influencers, and airdrops to incentivize engagement."
         >
           <CanvasRevealEffect
-            animationSpeed={3}
+            animationSpeed={2}
             // change bg-black to bg-pink-900
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-violet-900 rounded-3xl overflow-hidden"
             colors={[
               // change the colors of the
               [255, 166, 158],
@@ -55,9 +57,10 @@ const Approach = () => {
           regularly update the platform based on feedback, and onboard high-profile film projects to attract larger investments."
         >
           <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
+            animationSpeed={1}
+            containerClassName="bg-fuchsia-900 rounded-3xl overflow-hidden"
+            colors={[[240, 240, 240]]}
+            dotSize={2}
           />
         </Card>
       </div>
