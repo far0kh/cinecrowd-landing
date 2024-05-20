@@ -15,7 +15,7 @@ const Footer = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center" id="contact">
+      <div className="flex flex-col items-center pb-80" id="contact">
         <h1 className="heading">
           Ready to elevate<br />
           your <span className="text-purple">Cinema</span> and <span className="text-purple">Web3</span><br />
