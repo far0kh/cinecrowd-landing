@@ -32,7 +32,7 @@ const Footer = () => {
               position="right"
             />
           </a>
-          <a href="https://forms.gle/VmvaojDXnYZYhmBYA" target="_blank" rel="noreferrer">
+          <a href="https://ixz2yuxfmdj.typeform.com/to/aDRFNBHq" target="_blank" rel="noreferrer">
             <MagicButton
               title="Filmmakers Form"
               icon={<FaLocationArrow />}
