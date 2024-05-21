@@ -173,7 +173,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative">
+            <div className="relative">
               {/* button border magic from tailwind css buttons  */}
               {/* add rounded-md h-8 md:h-8, remove rounded-full */}
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
@@ -193,12 +193,13 @@ export const BentoGridItem = ({
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"
               /> */}
-              <MagicButton
-                title={copied ? "Coming Soon!" : "Complete the form"}
-                icon={copied ? '' : <FaLocationArrow />}
-                position="right"
-                handleClick={handleCopy}
-              />
+              <a href="https://forms.gle/VmvaojDXnYZYhmBYA" target="_blank" rel="noreferrer">
+                <MagicButton
+                  title={copied ? "Coming Soon!" : "Complete the form"}
+                  icon={copied ? '' : <FaLocationArrow />}
+                  position="right"
+                />
+              </a>
             </div>
           )}
         </div>
