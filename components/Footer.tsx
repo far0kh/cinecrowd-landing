@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaEnvelope } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
@@ -24,13 +24,22 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Join CineCrowd and be a part of the revolution in film funding and artistic expression.
         </p>
-        <a href="mailto:info@CineCrowd.xyz">
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
+        <div className="flex flex-col md:flex-row gap-4">
+          <a href="mailto:info@CineCrowd.xyz">
+            <MagicButton
+              title="Let's get in touch"
+              icon={<FaEnvelope />}
+              position="right"
+            />
+          </a>
+          <a href="https://forms.gle/VmvaojDXnYZYhmBYA" target="_blank" rel="noreferrer">
+            <MagicButton
+              title="Filmmakers Form"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
+        </div>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
