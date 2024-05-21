@@ -1,13 +1,10 @@
 import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
 import { FaLocationArrow } from "react-icons/fa6";
-
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
 
 import { cn } from "@/lib/utils";
-
 
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
@@ -57,24 +54,15 @@ export const BentoGridItem = ({
   const leftLists = ["Bitcoin", "Runes", "Ordinals"];
   const rightLists = ["AI", "DeFi", "Security"];
 
-  const [copied, setCopied] = useState(false);
+  const [clicked, setClicked] = useState(false);
 
   const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
+    loop: clicked,
+    autoplay: clicked,
     animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
-  };
-
-  const handleCopy = () => {
-    // const text = "info@cinecrowd.xyz";
-    // navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => {
-      setCopied(false);
-    }, 3000);
   };
 
   return (
@@ -179,25 +167,19 @@ export const BentoGridItem = ({
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
               {/* add handleCopy() for the copy the text */}
               <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
+                className={`absolute -bottom-5 right-0 ${clicked ? "block" : "block"
                   }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
-              {/* <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
-                icon={<IoCopyOutline />}
-                position="left"
-                handleClick={handleCopy}
-                otherClasses="!bg-[#161A31]"
-              /> */}
               <a href="https://forms.gle/VmvaojDXnYZYhmBYA" target="_blank" rel="noreferrer">
                 <MagicButton
-                  title={copied ? "Coming Soon!" : "Complete the form"}
-                  icon={copied ? '' : <FaLocationArrow />}
+                  title={clicked ? "Welcome to CineCrowd" : "Complete the form"}
+                  icon={clicked ? '' : <FaLocationArrow />}
                   position="right"
+                  handleClick={() => setClicked(true)}
                 />
               </a>
             </div>
