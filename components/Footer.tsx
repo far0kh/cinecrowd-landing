@@ -17,9 +17,9 @@ const Footer = () => {
 
       <div className="flex flex-col items-center pb-80" id="contact">
         <h1 className="heading">
-          Ready to elevate<br />
-          your <span className="text-purple">Cinema</span> and <span className="text-purple">Web3</span><br />
-          experience to the next level?
+          Ready to revolutionize your<br />
+          <span className="text-purple">Cinema Experience</span><br />
+          to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Join CineCrowd and be a part of the revolution in film funding and artistic expression.

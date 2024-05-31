@@ -10,7 +10,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "CineCrowd is an innovative Bitcoin-based Film Crowdfunding platform",
+    title: "CineCrowd is an innovative Bitcoin-powered Film Crowdfunding and Fan Tokens platform",
     description: "to bring together Bitcoin enthusiasts and visual artists, fostering a new era of artistic expression and funding.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -20,8 +20,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Engage with artists, get exclusive content, and be a part of a thriving community.",
-    description: "",
+    title: "Beyond Engagement",
+    description: "Connect with filmmakers, access exclusive content, and be a part of a dynamic community where your support makes a real impact.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -40,8 +40,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Leveraging blockchain for transparency and efficiency.",
-    description: "",
+    title: "Decentralized Technology",
+    description: "Leveraging blockchain for transparency and efficiency, we integrate Ordinals and Runes to enhance security and functionality, ensuring that every fan token has real value and purpose.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -51,8 +51,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Our mission is to democratize film funding and create a vibrant community where artists and investors can thrive.",
-    description: "The Mission Statement",
+    title: "Mission Statement",
+    description: "Our mission is to democratize film funding by giving fans the power to make things happen. We create a vibrant community where artists and investors thrive, driven by the collective influence of fan tokens.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-60 w-40",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -61,8 +61,8 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Are you a filmmaker with a vision? Let us help you fund and bring your film to the big screen.",
-    description: "",
+    title: "Have a cinematic vision?",
+    description: "Let our passionate community help you fund and bring your film to life. Complete the form below to get started.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",

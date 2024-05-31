@@ -7,7 +7,7 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CineCrowd | Blockchain-Powered Film Crowdfunding",
+  title: "CineCrowd | Empower Films with Fan Tokens",
   description: "Revolutionizing Film Crowdfunding with Blockchain Technology",
 };
 

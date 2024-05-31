@@ -49,12 +49,12 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Empower the Future of Cinema with Blockchain Technology"
+            words="Shape the Future of Cinema with CineCrowd"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            CineCrowd aims to revolutionize film crowdfunding by utilizing blockchain technology to establish a transparent, efficient, and engaging platform for filmmakers and investors.
+            CineCrowd is a groundbreaking Bitcoin-based film crowdfunding platform that empowers fans to support and influence their favorite films through valuable fan tokens. We bridge the gap between Bitcoin enthusiasts and visual artists, fostering a new era of artistic expression and funding.
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 mt-16">
