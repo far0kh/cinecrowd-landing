@@ -5,9 +5,11 @@ import { cn } from "@/lib/utils";
 
 export const TextGenerateEffect = ({
   words,
+  firstLineWords,
   className,
 }: {
   words: string;
+  firstLineWords: number;
   className?: string;
 }) => {
   const [scope, animate] = useAnimate();
@@ -34,10 +36,8 @@ export const TextGenerateEffect = ({
             <motion.span
               key={word + idx}
               // change here if idx is greater than 3, change the text color to #CBACF9
-              className={` ${idx > 3 ? "text-purple" : "dark:text-white text-black"
-                } opacity-0`}
-            >
-              {word}{" "}
+              className={`${idx > firstLineWords ? "text-purple" : "dark:text-white text-black"} opacity-0`}>
+              {word}{idx === firstLineWords ? <br /> : " "}
             </motion.span>
           );
         })}
