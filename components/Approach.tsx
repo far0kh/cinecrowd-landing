@@ -5,8 +5,8 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full pt-80">
-      <h1 className="heading" id="roadmap">
+    <section className="w-full pt-60">
+      <h1 className="heading pt-10" id="roadmap">
         CineCrowd <span className="text-purple">Roadmap</span>
       </h1>
       {/* remove bg-white dark:bg-black */}

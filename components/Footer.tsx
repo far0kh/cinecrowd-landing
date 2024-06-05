@@ -7,16 +7,16 @@ const Footer = () => {
   return (
     <footer className="w-full h-screen inline-grid">
       {/* background grid */}
-      <div className="w-full h-dvh relative left-0 -bottom-96 min-h-80">
+      {/* <div className="w-full h-dvh relative left-0 -bottom-96 min-h-80">
         <img
           src="/footer-grid.svg"
           alt="grid"
           className="w-full h-full opacity-50 "
         />
-      </div>
+      </div> */}
 
-      <div className="flex flex-col items-center pb-80" id="contact">
-        <h1 className="heading">
+      <div className="flex flex-col items-center pt-40 pb-20">
+        <h1 className="heading pt-10" id="contact">
           Ready to revolutionize your<br />
           <span className="text-purple">Cinema Experience</span><br />
           to the next level?
