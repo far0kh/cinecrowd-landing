@@ -42,7 +42,7 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[70vw] flex flex-col items-center justify-center">
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
            *
@@ -54,27 +54,37 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider my-4 text-xl md:text-2xl lg:text-3xl">
-            Shape the Future of Cinema with CineCrowd.xyz
+          <p className="text-center font-bold md:tracking-wider my-8 text-xl md:text-2xl lg:text-3xl">
+            Shape the Future of Cinema with{" "}
+            <span className="inline-block relative">
+              CineCrowd.xyz{" "}
+              <img
+                src="/curve.png"
+                className="absolute top-full left-0 w-full"
+                width={624}
+                height={28}
+                alt="Curve"
+              />
+            </span>
           </p>
           <p className="text-center md:tracking-wider my-4 text-xs md:text-sm lg:text-xl">
             CineCrowd is a groundbreaking Bitcoin-based platform that empowers fans to support and influence their favorite films through valuable fan tokens. We bridge the gap between Bitcoin enthusiasts and visual artists, fostering a new era of artistic expression and funding.
           </p>
 
-          <div className="flex flex-col md:flex-row gap-4 mt-16">
+          <div className="flex flex-col md:flex-row gap-4 mt-8">
             <div className="flex flex-row items-end">
               <div className="flex flex-col">
-                <p className="tracking-widest text-end text-xl text-blue-100 font-bold max-w-50 pe-1">
+                {/* <p className="tracking-widest text-end text-xl text-blue-100 font-bold max-w-50 pe-1">
                   CineCrowd.xyz
-                </p>
-                <p className="italic tracking-widest text-[0.5rem] text-end text-gray-400 max-w-50 pe-1">
+                </p> */}
+                <p className="italic tracking-widest text-xs text-end text-gray-400 max-w-50 pe-1">
                   Powered by
                 </p>
               </div>
               <Image
                 src="/btcslab.png"
                 height="100"
-                width="100"
+                width="130"
                 alt="BTCSLab Logo"
               />
             </div>
