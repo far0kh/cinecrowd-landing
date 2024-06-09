@@ -16,7 +16,7 @@ const Approach = () => {
           title="Foundation & Early Adoption"
           icon={<AceternityIcon order="Phase 1" />}
           des="Develop the CineCrowd platform with blockchain integration, 
-          introduce the stablecoin, conduct beta testing, launch marketing campaigns to attract 
+          conduct beta testing, launch marketing campaigns to attract 
           filmmakers and early adopters, and onboard initial film projects with detailed information."
         >
           <CanvasRevealEffect
