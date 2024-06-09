@@ -204,16 +204,17 @@ export const workExperience = [
 ];
 
 export const socialMedia = [
-  {
-    id: 1,
-    img: "/git.svg",
-  },
+  // {
+  //   id: 1,
+  //   img: "/git.svg",
+  // },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/x.svg",
+    link: "https://x.com/CineCrowd_xyz"
   },
-  {
-    id: 3,
-    img: "/link.svg",
-  },
+  // {
+  //   id: 3,
+  //   img: "/link.svg",
+  // },
 ];
