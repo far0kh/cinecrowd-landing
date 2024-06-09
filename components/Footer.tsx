@@ -42,11 +42,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light pb-4">
-          Copyright © 2024 CineCrowd.xyz
-        </p>
-
+      <div className="flex mt-16 md:flex-row-reverse flex-col justify-between items-center">
         <div className="flex items-center md:gap-3 gap-6 pb-4">
           {socialMedia.map((info: { id: Key | null | undefined; link: string | undefined; img: string | undefined; }) => (
             <a
@@ -59,6 +55,9 @@ const Footer = () => {
             </a>
           ))}
         </div>
+        <p className="md:text-base text-sm md:font-normal font-light pb-4">
+          Copyright © 2024 CineCrowd.xyz
+        </p>
       </div>
     </footer >
   );
