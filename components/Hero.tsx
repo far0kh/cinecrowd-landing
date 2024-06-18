@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-2 md:pb-8 pt-16" id="#">
+    <div className="pb-2 md:pb-8 pt-12" id="#">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -41,7 +41,10 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex flex-col justify-center items-center relative my-20 z-10">
+
+        <Image src="/cinecrowd-logo.webp" alt="CineCrowd Logo" width={75} height={75} />
+
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[70vw] flex flex-col items-center justify-center">
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
@@ -54,7 +57,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center font-bold md:tracking-wider my-8 text-xl md:text-2xl lg:text-3xl">
+          <p className="text-center font-bold md:tracking-wider mt-4 mb-8 text-xl md:text-2xl lg:text-3xl">
             Shape the Future of Cinema with{" "}
             <span className="inline-block relative">
               CineCrowd.xyz{" "}

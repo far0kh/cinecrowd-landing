@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/cinecrowd-logo.png" sizes="any" />
+        <link rel="icon" href="/cinecrowd-logo.png?v=1" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
